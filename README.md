@@ -32,8 +32,8 @@ First, install it:
 Now, use it:
 
     var mod_extsprintf = require('extsprintf');
-    console.log(mod_extsprintf.sprintf('%-20s', hello));
+    console.log(mod_extsprintf.sprintf('hello %25s', 'world'));
 
 outputs:
 
-                   hello
+    hello                     world
