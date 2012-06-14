@@ -1,6 +1,6 @@
 {
 	"name": "extsprintf",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "extended POSIX-style sprintf",
 	"main": "./lib/extsprintf.js",
 	
