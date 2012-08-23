@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/davepacheco/node-extsprintf.png)](http://travis-ci.org/davepacheco/node-extsprintf)
 # extsprintf: extended POSIX-style sprintf
 
 Stripped down version of s[n]printf(3c).  We make a best effort to throw an
