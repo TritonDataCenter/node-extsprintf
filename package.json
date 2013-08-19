@@ -3,11 +3,12 @@
 	"version": "1.0.2",
 	"description": "extended POSIX-style sprintf",
 	"main": "./lib/extsprintf.js",
-	
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/davepacheco/node-extsprintf.git"
 	},
-
-	"engines": [ "node >=0.6.0" ]
+	"engines": [
+		"node >=0.6.0"
+	],
+	"license": "MIT"
 }
