@@ -11,6 +11,8 @@
 #
 # Files
 #
+JSL		 = jsl
+JSSTYLE		 = jsstyle
 JS_FILES	:= $(shell find lib -name '*.js')
 JSL_FILES_NODE   = $(JS_FILES)
 JSSTYLE_FILES	 = $(JS_FILES)
@@ -19,5 +21,4 @@ JSL_CONF_NODE	 = jsl.node.conf
 # Default target is "check"
 check:
 
-include ./Makefile.deps
 include ./Makefile.targ
